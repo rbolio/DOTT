@@ -59,53 +59,23 @@ curl localhost/ip-validation?value=255.255.0.0
 
 ## What do you need to do?
 
-### Continuous Integration
-  * Define a CI pipeline.
-  * The pipelines must be checked in code (Jenkinsfile or Scripts).
-  * Automate your tests every time a change is pushed to the repository.
-    - Avoid buggy code to be deployed.
+### CI/CD Pipeline
+- [ ] Jenkins
+    - [ ] Webhook
+- [ ] Sonar Qube
+    - [ ] Linting
+    - [ ] Static Code Analysis
+- [ ] Testing
+    - [ ] Unit testing
+    - [ ] Functional Tesging(plus)
+- [ ] (Plus) Docker
+- [ ] (Plus) Seguridad
+- [ ] (Plus) Fix Code
 
-### Continuous Delivery
+### Techincal Diagram 
+- [ ] Processes
+- [ ] Information Flow between different technologies
 
-  * Define your CD pipeline.
-  * Deploy to your Production Environment based on your defined strategy.
-  * Manage stage as production.
-  * Deploy to your Testing Environment before deploying to stage or production.
-  * Deploy with no downtime in production.
-  
-### Coding
-  * Complete the following endpoints.
-   - `/mask-to-cidr?value=<VALUE>`
-   - `/cidr-to-mask?value=<VALUE>`
-  * The following endpoint is not required for this phase.
-   - `/ip-validation?value=<VALUE>`
-  * Make sure your tests are passing
-  * Add missing tests
-  * You should pick one from a list of available languages.
-    - [Python](cidr_convert_api/python)
-    - [Go](cidr_convert_api/go)
-    - [Java](cidr_convert_api/java)
-    - [NodeJS](cidr_convert_api/node)
-    - [Ruby](cidr_convert_api/ruby)
+### Task Organization
+- [ ] Kanban (Trello.com)
 
-## Infrastructure Management
-
-  You will have access to the following:
-
-  * AWS EC2 Insance
-
-### How to access the infrastructure:
-  * You will be given a dedicated machine for your task. You should recieve the following:
-    - IP of the EC2 instance
-    - Access keys / .pem file
-
-
-### Using Docker Builder
-  * Docker can be integrated with Jenkins, in a job you could use this
-  command to build an image
-
-```
- docker build -t my-image:some-tag .
-```
-
-  * You will need to push data to a remote docker registry.
