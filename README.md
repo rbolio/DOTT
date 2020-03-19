@@ -63,7 +63,7 @@ curl localhost/ip-validation?value=255.255.0.0
 - [ ] Jenkins
     - [ ] Webhook
 - [ ] Sonar Qube
-    - [ ] Linting
+    - [ ] (Plus) Linting
     - [ ] Static Code Analysis
 - [ ] Testing
     - [ ] Unit testing
