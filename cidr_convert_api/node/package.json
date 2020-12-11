@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wizeline/wize-devops.git"
+    "url": "git+https://github.com/accenture/wize-devops.git"
   },
   "author": "Leon Garcia",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wizeline/wize-devops/issues"
+    "url": "https://github.com/accenture/wize-devops/issues"
   },
-  "homepage": "https://github.com/wizeline/wize-devops#readme",
+  "homepage": "https://github.com/accenture/wize-devops#readme",
   "dependencies": {
     "config": "^1.30.0",
     "npm": "^6.14.2",
