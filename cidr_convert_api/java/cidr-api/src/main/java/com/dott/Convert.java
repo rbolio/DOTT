@@ -1,5 +1,6 @@
 package com.dott;
 
+
 public class Convert {
     public static String cidrToMask(String x) {
         return x;

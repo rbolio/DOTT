@@ -1,12 +1,12 @@
 package com.dott;
-
-import static com.dott.JsonUtil.json;
-import static spark.Spark.get;
-import static spark.Spark.port;
+import static com.dott.JsonUtil.*;
+import static com.dott.Convert.*;
+import static com.dott.Response.*;
+import static spark.Spark.*;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("Listening on: http://localhost:8000/");
+        System.out.println( "Listening on: http://localhost:8000/" );
 
         port(8000);
         get("/", App::routeRoot);

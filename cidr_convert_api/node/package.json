@@ -14,10 +14,6 @@
   },
   "author": "Leon Garcia",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/accenture/wize-devops/issues"
-  },
-  "homepage": "https://github.com/accenture/wize-devops#readme",
   "dependencies": {
     "config": "^1.30.0",
     "npm": "^6.14.2",
