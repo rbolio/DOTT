@@ -3,17 +3,17 @@ pipeline{
 		stages{
 			stage ('First'){
 				steps{
-					sh 'echo "Paso1"'
+					sh 'echo "First"'
 				}
 			}
 			stage ('Second'){
 				steps{
-					sh 'echo "Paso2"'
+					sh 'echo "Second"'
 				}
 			}
 			stage ('Third'){
 				steps{
-					sh 'echo "Paso3"'
+					sh 'echo "Third"'
 				}
 			}
 		}
