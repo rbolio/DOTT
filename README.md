@@ -68,6 +68,8 @@ curl localhost/ip-validation?value=255.255.0.0
 - [ ] Testing
     - [ ] Unit testing
     - [ ] Functional Tesging(plus)
+- [ ] Deployment
+    - [ ] In case your app requires extra infra it will be a Plus
 - [ ] (Plus) Docker
 - [ ] (Plus) Seguridad
 - [ ] (Plus) Fix Code
